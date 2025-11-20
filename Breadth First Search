@@ -38,3 +38,8 @@ edge(5, 6).
 
 % Define goal node
 goal(6).
+
+
+
+%query
+%?- solve(1, Solution).
