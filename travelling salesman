@@ -42,3 +42,7 @@ tsp(Start, BestPath, MinCost) :-
 
     % Sort the costed tours by cost (ascending order)
     keysort(CostedTours, [MinCost-BestPath | _]).  % Select the best path
+
+
+
+%%   tsp(a, BestPath, MinCost).
