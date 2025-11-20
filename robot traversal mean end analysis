@@ -89,3 +89,10 @@ pairs_values([], []).
 
 pairs_values([_-V|T], [V|Vs]) :-
     pairs_values(T, Vs).
+
+
+
+%% query
+%?- Obst = [(2,2),(2,3),(3,3)],
+%   solve_mea((1,1), (5,5), Obst, (5,5), Path).
+
