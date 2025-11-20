@@ -12,3 +12,6 @@ edge(c ,f).
 edge(d ,g).
 edge(e ,g).
 edge(f ,h).
+
+%query
+%?- dfs(a, g, Path).
